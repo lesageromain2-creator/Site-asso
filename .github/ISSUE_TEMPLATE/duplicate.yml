@@ -1,0 +1,13 @@
+name: 🔁 Doublon
+description: Catégorise un ticket déjà existant
+title: "[DUPLICATE] Référence du ticket original"
+labels: ["duplicate"]
+body:
+  - type: markdown
+    attributes:
+      value: "Merci ! Ce ticket semble être un doublon d’un autre signalement existant."
+  - type: input
+    id: link
+    attributes:
+      label: 🔗 Lien du ticket original
+      placeholder: "Ex. #42"
