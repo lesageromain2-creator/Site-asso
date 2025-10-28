@@ -1,0 +1,22 @@
+name: ❓ Question / Support
+description: Poser une question ou demander de l’aide
+title: "[QUESTION] Sujet de ta question"
+labels: ["question"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: 📘 Contexte de ta question
+      placeholder: "Explique brièvement ce que tu veux comprendre ou résoudre."
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: 🔧 Ce que tu as déjà essayé
+      placeholder: "Décris les recherches, tests ou pistes que tu as explorés."
+  - type: textarea
+    id: expected
+    attributes:
+      label: 💬 Réponse ou aide attendue
+      placeholder: "Quel type d’aide espères-tu obtenir ?"
