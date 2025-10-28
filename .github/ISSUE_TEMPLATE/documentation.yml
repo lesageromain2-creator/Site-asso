@@ -1,0 +1,17 @@
+name: 📘 Documentation
+description: Signaler une erreur, un manque ou une amélioration possible dans la documentation
+title: "[DOC] Sujet de la documentation"
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 📖 Problème ou manque
+      placeholder: "Ex. Le guide d’installation n’explique pas comment configurer XAMPP..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: ✏️ Proposition de correction / ajout
+      placeholder: "Ex. Ajouter une section sur la configuration de la base de données."
