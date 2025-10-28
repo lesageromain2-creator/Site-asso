@@ -1,0 +1,13 @@
+name: ⚠️ Rapport non valide
+description: Catégorise un problème fermé car non valide
+title: "[INVALID] Raison du signalement"
+labels: ["invalid"]
+body:
+  - type: markdown
+    attributes:
+      value: "Cette catégorie est réservée à l’équipe pour marquer un ticket comme invalide."
+  - type: textarea
+    id: reason
+    attributes:
+      label: 🗑️ Raison
+      placeholder: "Ex. Le problème n’existe plus / erreur de saisie / environnement mal configuré."
