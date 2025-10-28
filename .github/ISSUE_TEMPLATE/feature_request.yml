@@ -1,0 +1,42 @@
+name: 💡 Suggestion de fonctionnalité
+description: Propose une amélioration ou une nouvelle idée
+title: "[FEATURE] Décris brièvement ta proposition"
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de partager ton idée !  
+        Plus elle est détaillée, plus on pourra l’évaluer rapidement 🔍
+
+  - type: input
+    id: summary
+    attributes:
+      label: 📝 Résumé
+      placeholder: Ex. "Ajouter un mode sombre"
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: ❓ Pourquoi ?
+      placeholder: Explique pourquoi cette fonctionnalité serait utile.
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 💡 Ta proposition
+      placeholder: Décris comment tu vois la mise en œuvre de cette idée.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternatives possibles
+      placeholder: D’autres manières d’arriver au même résultat ?
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 💬 Informations supplémentaires
+      placeholder: Détails techniques, maquettes, exemples, etc.
