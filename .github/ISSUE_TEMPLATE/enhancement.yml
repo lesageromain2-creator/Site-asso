@@ -1,0 +1,22 @@
+name: 💡 Amélioration / Nouvelle fonctionnalité
+description: Suggère une idée pour améliorer le projet
+title: "[ENHANCEMENT] Brève description"
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: ❓ Pourquoi cette amélioration ?
+      placeholder: "Ex. L’application manque de filtres pour trier les articles..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 💡 Ta proposition
+      placeholder: "Ex. Ajouter un bouton 'Trier par date' dans le tableau..."
+  - type: textarea
+    id: impact
+    attributes:
+      label: 🌍 Impact attendu
+      placeholder: "Ex. Cela améliorera la navigation et l’efficacité des utilisateurs."
