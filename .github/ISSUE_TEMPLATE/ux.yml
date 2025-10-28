@@ -1,0 +1,22 @@
+name: 🎨 UX / Design
+description: Signaler un problème d’ergonomie ou une idée d’amélioration du design
+title: "[UX] Décris le problème ou l’amélioration"
+labels: ["UX"]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: 🧭 Description
+      placeholder: "Ex. Le bouton est mal positionné sur mobile..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 💡 Proposition d’amélioration
+      placeholder: "Ex. Déplacer le bouton sous le formulaire et l’agrandir..."
+  - type: input
+    id: device
+    attributes:
+      label: 📱 Appareil / navigateur concerné
+      placeholder: "Ex. iPhone 14, Safari, Windows Chrome 130..."
